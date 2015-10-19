@@ -26,6 +26,8 @@ namespace WebApplication2
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/font-awesome/css/font-awesome.css",
+                      "~/font-awesome/css/font-awesome.min.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/grayscale.css",
                       "~/Content/site.css"));
