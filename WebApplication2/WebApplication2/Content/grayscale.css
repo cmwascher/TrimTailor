@@ -146,11 +146,10 @@ a:focus {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    margin-top:50px;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background: transparent; /*url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
