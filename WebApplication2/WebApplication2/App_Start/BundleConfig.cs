@@ -25,9 +25,15 @@ namespace WebApplication2
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/bootstrap.min.css",
                       "~/Content/bootstrap.css",
+                      "~/font-awesome/css/font-awesome.css",
+                      "~/font-awesome/css/font-awesome.min.css",
                       "~/Content/grayscale.css",
                       "~/Content/site.css"));
-        }
+
+            bundles.Add(new StyleBundle("~/Content/img").Include(
+                       "~/Brick.jpg"));
+          }
     }
 }
